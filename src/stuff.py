@@ -431,8 +431,8 @@ def avoid_enemy_attack(board, enemy):
             "down": "up",
             "left-up":"right-down",
             "right-up": "left-down",
-            "left-up": "right-down",
-            "left-down": "right-down"}
+            "right-down": "left-up",
+            "left-down": "right-up"}
     possible_moves_with_attack = []
     possible_moves = []
     for i in moves:
